@@ -1,0 +1,65 @@
+/* Style the header element */
+header {
+  padding: 10px 18% 0; /* Add padding to top and sides, and use percentage values to adjust for different screen sizes */
+  background-color: #2c2c32; /* Set background color */
+  box-shadow: 0px 5px 5px #25252b; /* Add a subtle box shadow effect */
+  position: sticky; /* Set position to sticky so that the header stays fixed on top while scrolling */
+  top: 0; /* Set top position to 0 */
+  font-family: "Inter", sans-serif;
+}
+
+/* Style the topbar element within the header */
+.topbar {
+  display: flex; /* Use flexbox to display the elements within the topbar */
+  align-items: center; /* Vertically center the elements */
+  justify-content: space-between; /* Add space between the elements */
+}
+
+.topbar a {
+  text-decoration: none; /* Remove the default underline style from anchor links */
+}
+
+/* Style the name within the topbar */
+.head {
+  font-size: 2.2rem; /* Set font size */
+  color: #ffffff; /* Set text color */
+  text-align: center; /* Center align the text */
+}
+
+/* Style the name on hover */
+.head:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style the navigation links within the topbar */
+.navlist a {
+  padding: 0 5px; /* Add left and right padding */
+  font-size: 1rem; /* Set font size */
+  color: #aaaaad; /* Set text color */
+  transition: 0.1s; /* Add a smooth transition effect on hover */
+}
+
+/* Style the navigation links on hover */
+.navlist a:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: white; /* Change text color on hover */
+}
+
+.nav li {
+  list-style: none; /* Remove bullet points from the list */
+}
+
+/* Style the work in progress text section */
+.wiptext,
+.wiptext p {
+  text-align: center; /* Center align text */
+  background-color: #25252b; /* Set background color */
+  color: #b0b0b1; /* Set text color */
+  padding: 5px 0 6px; /* Add padding */
+  font-family: "Open Sans", sans-serif;
+}
+.wiptext a {
+  text-decoration: underline;
+  background-color: #25252b;
+  color: #0098ff;
+}

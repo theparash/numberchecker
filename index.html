@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Number Checker</title>
-    <link rel="stylesheet" href="assets/style.css" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/header.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/global.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="shortcut icon"
-      href="assets/image/icon.png"
-      type="image/x-icon"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/image/icon.png" type="image/x-icon" />
+    <title>Parash</title>
   </head>
   <body>
     <header>
       <!-- Header as a whole -->
       <nav class="topbar">
         <!-- My name -->
-        <p>
-          <a
-            href="https://theparash.github.io
-		"
-            class="head"
-            >Parash</a
-          >
-        </p>
+        <p><a href="/" class="head">Parash</a></p>
         <!-- Navigaion links -->
         <ul class="nav">
           <li class="navlist">
@@ -35,12 +39,21 @@
     <main>
       <!-- Work in progress text(Remove after website is completed) -->
       <section class="wiptext">
-        <p class="wip">Will add about page next</p>
+        <p>
+          <a href="https://theparash.github.io/numberchecker" target="_blank"
+            >Number Checker</a
+          >
+          website released
+        </p>
       </section>
     </main>
     <div class="container">
       <label for="number-input">Enter your phone number:</label>
-      <input type="text" id="number-input" placeholder="98" />
+      <input
+        type="text"
+        id="number-input"
+        placeholder="Enter the phone number"
+      />
       <button id="check-button">Check</button>
       <div class="loader"></div>
       <p id="result"></p>
